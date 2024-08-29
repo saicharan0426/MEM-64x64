@@ -1,0 +1,79 @@
+$date
+Thu Aug 29 14:18:30 2024
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+10 ps
+$end
+
+$scope module tb $end
+$var wire 64 ! DataBus [63:0] $end
+$var reg 1 " MemWr $end
+$var reg 1 # MemRd $end
+$var reg 6 $ Addr [5:0] $end
+
+$scope module uut $end
+$var wire 64 ! DataBus [63:0] $end
+$var wire 1 % MemWr $end
+$var wire 1 & MemRd $end
+$var wire 6 ' Addr [5:0] $end
+$var reg 64 ( datareg [63:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bz !
+0"
+0#
+b0 $
+0%
+0&
+b0 '
+bz (
+$end
+#2000
+1#
+1&
+bx (
+bx !
+#5000
+b1 $
+b1 '
+#8000
+b10 $
+b10 '
+#11000
+b11 $
+b11 '
+#14000
+b100 $
+b100 '
+#17000
+b101 $
+b101 '
+#20000
+b110 $
+b110 '
+#23000
+b111 $
+b111 '
+#26000
+b1000 $
+b1000 '
+#29000
+b1001 $
+b1001 '
+#32000
+0#
+1"
+b0 $
+b0 '
+1%
+0&
+b1000100010001000100010001000100010001000100010001000100010001 (
+b1000100010001000100010001000100010001000100010001000100010001 !
+#34000
